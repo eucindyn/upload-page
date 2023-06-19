@@ -12,11 +12,27 @@ body {
   line-height: 130%;
 }
 
-.drag-files {
+.app {
   min-height: 100vh;
   display: grid;
   place-content: center;
-  margin-left: 4rem;
+}
+
+.drag-files {
+  background-color: #f3f0ff;
+  border: 1px dashed #c1b2fa;
+  border-radius: 8px;
+  width: 350px;
+  text-align: center;
+  padding: 28px 32px;
+  position: relative;
+}
+
+.drag-files input {
+  all: unset;
+  opacity: 0;
+  inset: 0;
+  position: absolute;
 }
 
 
