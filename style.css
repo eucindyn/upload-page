@@ -1,3 +1,7 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +12,7 @@ html,
 body {
   background-color: #fbfaff;
   min-height: 100vh;
+  font-size: 1.6rem;
   font-family: "Inter", sans-serif;
   line-height: 130%;
 }
@@ -22,9 +27,9 @@ body {
   background-color: #f3f0ff;
   border: 1px dashed #c1b2fa;
   border-radius: 8px;
-  width: 350px;
+  width: 35rem;
   text-align: center;
-  padding: 28px 32px;
+  padding: 2.8rem 3.2rem;
   position: relative;
 }
 
