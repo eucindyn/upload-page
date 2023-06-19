@@ -8,6 +8,16 @@ html,
 body {
   background-color: #fbfaff;
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 130%;
 }
+
+.drag-files {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  margin-left: 4rem;
+}
+
+
+
