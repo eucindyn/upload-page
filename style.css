@@ -27,7 +27,7 @@ body {
 .drag-files {
   background-color: #f3f0ff;
   border: 1px dashed #c1b2fa;
-  border-radius: 8px;
+  border-radius: 0.8rem;
   width: 35rem;
   text-align: center;
   padding: 2.8rem 3.2rem;
