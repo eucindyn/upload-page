@@ -64,14 +64,13 @@ body {
 }
 
 /* UPLOAD BOXES */
-
 .files {
   margin-top: 2rem;
   display: grid;
   gap: 1.2rem;
 }
-/* BOX */
 
+/* BOX */
 .box {
   display: flex;
   position: relative;
@@ -89,7 +88,6 @@ body {
 }
 
 /* ICON */
-
 .box .icon {
   display: flex;
   align-items: center;
@@ -105,7 +103,6 @@ body {
 }
 
 /* INFO */
-
 .box .info {
   display: flex;
   flex-direction: column;
@@ -126,7 +123,6 @@ body {
 }
 
 /* PROGRESS BAR */
-
 .bar {
   display: flex;
   align-items: center;
@@ -157,7 +153,6 @@ progress::-webkit-progress-value {
 }
 
 /* ACTION */
-
 .action {
   position: absolute;
   top: 0.8rem;
@@ -172,7 +167,6 @@ progress::-webkit-progress-value {
 }
 
 /* COLORS */
-
 .uploading {
   --icon-bg: #e9e3f8;
   --icon-color: #ac96e4;
