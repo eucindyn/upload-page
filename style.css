@@ -73,9 +73,38 @@ body {
 /* BOX */
 
 .box {
+  display: flex;
+  gap: 1.2rem;
   padding: 0.8rem;
   width: 35rem;
   background-color: #ffffff;
   box-shadow: 0 0.4rem 1.6rem #eae2fd;
   border-radius: 0.8rem;
+
+  --icon-bg: #eee;
+  --icon-color: #aaa;
+  --progress-color: #111111;
+  --progress-text: #45fb;
+}
+
+/* ICON */
+
+.box .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--icon-bg);
+  border-radius: 0.4rem;
+  padding: 1rem 1.2rem;
+}
+
+.box .icon i {
+  font-size: 2.4rem;
+  color: var(--icon-color);
+}
+
+/* INFO */
+
+.box .info {
+  flex: 1;
 }
