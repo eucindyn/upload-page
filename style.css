@@ -62,3 +62,20 @@ body {
 .drag-files.dragover {
   background-color: #ebe6ff;
 }
+
+/* UPLOAD BOXES */
+
+.files {
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.2rem;
+}
+/* BOX */
+
+.box {
+  padding: 0.8rem;
+  width: 35rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.4rem 1.6rem #eae2fd;
+  border-radius: 0.8rem;
+}
