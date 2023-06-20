@@ -74,6 +74,7 @@ body {
 
 .box {
   display: flex;
+  position: relative;
   gap: 1.2rem;
   padding: 0.8rem;
   width: 35rem;
@@ -84,7 +85,7 @@ body {
   --icon-bg: #eee;
   --icon-color: #aaa;
   --progress-color: #111111;
-  --progress-text: #45fb;
+  --progress-text: #999;
 }
 
 /* ICON */
@@ -139,4 +140,33 @@ progress {
   overflow: hidden;
   height: 0.6rem;
   border-radius: 99rem;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #e3e3ed;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--progress-color);
+}
+
+.bar span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--progress-text);
+}
+
+/* ACTION */
+
+.action {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.8rem;
+  color: #7a5fec;
+  cursor: pointer;
+}
+
+.action i.ph {
+  font-size: 1.4rem;
+  font-weight: 700;
 }
