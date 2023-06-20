@@ -123,3 +123,20 @@ body {
   font-weight: 500;
   font-size: 1rem;
 }
+
+/* PROGRESS BAR */
+
+.bar {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  gap: 0.8rem;
+}
+
+progress {
+  flex: 1;
+  appearance: none;
+  overflow: hidden;
+  height: 0.6rem;
+  border-radius: 99rem;
+}
