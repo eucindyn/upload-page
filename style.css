@@ -58,3 +58,7 @@ body {
   font-size: 1.4rem;
   color: #746e82;
 }
+
+.drag-files.draghover {
+  background-color: #ebe6ff;
+}
