@@ -20,6 +20,7 @@ Um componente de upload de arquivo.
 
 - HTML
 - CSS
+- JavaScript
   
 <br>
 
