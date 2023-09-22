@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<img src="https://github.com/eucindyn/upload-page/assets/92797194/a41d41da-6222-4b54-a5e7-5aee94a9e296.png" width="400px"/>
+<img src="https://github.com/eucindyn/upload-page/assets/92797194/e0f254f4-3dac-4d74-9454-b15bddd919e3.png" width="600px"/>
 </div>
 <br>
 <br>
